@@ -7,7 +7,7 @@ var blueberries =  {
 	latin: 'vaccinium corymbosum',
 	energy: 240,
 	grows: true,
-	carbohydrates: true,
+	carbohydrates: 14.49,
 	protein: 0.74,
 };
 
@@ -52,11 +52,6 @@ var writeFruit = function (fruits) {
 	document.write('</dl>');
 };
 
-writeFruit(blueberries);
-writeFruit(grapes); 
-writeFruit(redCurrant);
-
 
 var allFruits = [blueberries, grapes, redCurrant];
-
 allFruits.forEach(writeFruit)
