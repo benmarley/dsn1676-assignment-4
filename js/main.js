@@ -1,10 +1,6 @@
-//alert('Hello!');
-
-
-
 var blueberries =  {
-	fruit: 'blueberries',
-	latin: 'vaccinium corymbosum',
+	fruit: 'Blueberries',
+	latin: 'Vaccinium corymbosum',
 	energy: 240,
 	grows: true,
 	carbohydrates: 14.49,
@@ -12,7 +8,7 @@ var blueberries =  {
 };
 
 var grapes =  {
-	fruit: 'grapes',
+	fruit: 'Grapes',
 	latin: 'Vitis vinifera',
 	grows: false,
 	energy: 288,
@@ -22,7 +18,7 @@ var grapes =  {
 
 var redCurrant =  {
 	fruit: 'Red Current',
-	latin: 'Ribes Rebrum',
+	latin: 'Ribes Rubrum',
 	grows: false,
 	energy: 288,
 	carbohydrates: 18.1, 
@@ -41,7 +37,7 @@ var writeFruit = function (fruits) {
 	document.write('<dd>' + fruits.grows + '</dd>');
 
 	document.write('<dt>energy</dt>')
-	document.write('<dd>' + fruits.energy + 'kj</dd>');
+	document.write('<dd>' + fruits.energy + 'KJ</dd>');
 
 	document.write('<dt>carbohydrates</dt>')
 	document.write('<dd>' + fruits.carbohydrates + 'g</dd>');
@@ -52,6 +48,6 @@ var writeFruit = function (fruits) {
 	document.write('</dl>');
 };
 
-
 var allFruits = [blueberries, grapes, redCurrant];
+
 allFruits.forEach(writeFruit)

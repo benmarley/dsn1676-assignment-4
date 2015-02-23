@@ -1,17 +1,26 @@
 html {
-	background-color: pink;
+	background-color: #669999;
+	font-family: 'Raleway', sans-serif;
 }
 h1 {
-	color: brown;
+	color: #66CC99;
+	padding-left: 1em;
 }
 
 dd {
 	position: relative;
-	left: 55px;
+	left: 105px;
 	bottom: 15px;
-	color: blue;
+	color: white;
 }
 
 dt {
-	color:purple;
+	color: #336666;
+	font-size: 120%;
+}
+
+dl {
+	padding: 2em;
+	background-color: #66CC99;
+	width: 20em;
 }
