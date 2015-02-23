@@ -2,6 +2,7 @@ html {
 	background-color: #669999;
 	font-family: 'Raleway', sans-serif;
 }
+
 h1 {
 	color: #66CC99;
 	padding-left: 1em;
@@ -23,4 +24,5 @@ dl {
 	padding: 2em;
 	background-color: #66CC99;
 	width: 20em;
+	margin-left: 2em;
 }
